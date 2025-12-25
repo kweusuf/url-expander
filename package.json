@@ -1,0 +1,21 @@
+{
+  "name": "url-expander",
+  "version": "1.0.0",
+  "description": "Expand shortened URLs using headless browser with JavaScript support",
+  "main": "index.js",
+  "bin": {
+    "url-expander": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": ["url", "expander", "shortener", "linkedin", "puppeteer"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "commander": "^14.0.2",
+    "puppeteer": "^24.34.0"
+  }
+}
